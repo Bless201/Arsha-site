@@ -1,0 +1,29 @@
+:root {
+    --clr-accent: #ff5733; /* Example color */
+    --clr-rgba: rgba(255, 87, 51, 0.5); /* Example background color */
+    --clr-light: #fff; /* Example color */
+}
+
+.btn {
+    width: 13%;
+    font-size: 2em;
+    font-weight: 700;
+    padding: 0.5em 1rem;
+    color: var(--clr-accent);
+    background-color: var(--clr-rgba);
+    border: 10px solid var(--clr-accent);
+    border-radius: 5px;
+    text-align: center;
+    margin: auto;
+    margin-top: 7em;
+
+    transition: all 0.3s;
+}
+
+.btn:hover {
+    color: var(--clr-light);
+    background-color: var(--clr-accent);
+    border-color: var(--clr-rgba);
+    transition: all 0.3s;
+    transform: translateY(-10px);
+}

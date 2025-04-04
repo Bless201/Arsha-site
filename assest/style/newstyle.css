@@ -1,0 +1,99 @@
+.sign-in{
+    width: 100%;
+    background-color: #b3d858;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sign-in .left{
+    width: 50%;
+    height: 100vh;
+}
+
+.sign-in .left img{
+    width: 100%;
+    height: 100vh;
+}
+
+.sign-in .right{
+    width: 50%;
+    height: 100vh;
+    background-color: #87f1a2;
+}
+
+.right .header{
+    text-align: center;
+    padding-top: 40px;
+}
+
+.right .header p{
+    color: grey;
+}
+
+.right .right-container{
+    background-color: white;
+    width: 60%;
+    height: 65%;
+    margin-left: 20%;
+    padding-top: 5px;
+    padding-left: 20px;
+}
+
+.right-container .raw-data input{
+    margin-top: -10px; 
+    width: 90%;
+    height: 40px;
+    border-radius: 5px ;
+    border: solid 2px lightgray;
+    outline: none;
+    padding-left: 10px;
+}
+
+.right-container .forget{
+    color: grey;
+    text-align: right;
+    padding-right: 30px;
+    line-height: 0.01;
+}
+
+.right-container .contain{
+    display: flex; 
+}
+
+.contain input{
+    width: 10px;
+    height: 10px;
+}
+
+.green{
+    line-height:0.01;
+    position: relative;
+    top: -0.80em;
+}
+
+.big-green{
+    background-color: rgb(6, 196, 6);
+    width: 87%;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;   
+}
+
+.right-container .p{
+    text-align: center;
+    line-height: 0.01;
+}
+
+.right-container .p a{
+    text-decoration: none;
+}
+
+.right-container .p span{
+    color: green;
+    font-weight: bold;
+}
+
+
+
+

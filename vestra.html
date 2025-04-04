@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assest/style/vestra.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Vestra Signup</title>
+</head>
+<body id="body">
+    <section class="signup">
+        <div class="left">
+            <img src="./assest/image/vestra lmage.jfif" alt="background image">
+        </div>   
+
+        <div class="right">
+    
+            <div class="right-container">
+
+                <h1>Basic Informations</h1>
+
+                <div class="contain">
+                    <div class="raw-data">
+                        <h4>Full Name</h4>
+                        <input type="text" id="name" placeholder="Enter your full name">
+                        <div class="error" id="nameError"></div>
+                    </div>
+
+
+                    <div class="raw-data">
+                        <h4>Email Address</h4>
+                        <input type="email" id="email" placeholder="Enter your email">
+                        <div class="error" id="emailError"></div>
+                    </div>
+
+                    <div class="raw-data">
+                        <h4>Password</h4>
+                        <input type="password" id="password" placeholder="Enter your password">
+                        <div class="error" id="passwordError"></div>
+                    </div>
+
+                    <div class="raw-data">
+                        <h4>Confirm Password</h4>
+                        <input type="password" id="confirmPassword" placeholder="repeat password">
+                        <div class="error" id="confirmError"></div>
+                    </div>
+                    
+                    <button class="big-green" id="register" onclick="validateForm()">Register</button>
+                    <p class="p">Already on Vestra?  <a href="/register.html"> Login</a></p>
+                </div>
+            
+            </div>
+
+        </div>
+
+        <div id="overlay">
+            <div id="success">
+                <h1>Success!</h1>
+                <p>You have logged in</p>
+                <div id="button">
+                    <button>Done</button> 
+                </div>
+            </div>
+
+            <div id="wait">
+                <h1>Please wait.......</h1>
+            </div>
+        </div>
+        
+
+        <script src="vestra.js"></script>
+    </section>
+</body>
+</html>
